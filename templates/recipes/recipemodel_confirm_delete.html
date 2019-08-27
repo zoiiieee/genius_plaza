@@ -1,0 +1,1 @@
+<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <title>Delete Recipe</title></head><body><form method="post">{% csrf_token %}    <p>Are you sure you want to delete "{{ object }}"?</p>    <input type="submit" style="background-color: red" value="Confirm"></form></body></html>
